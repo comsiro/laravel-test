@@ -2,8 +2,8 @@
    <p>Simple flarum login through laravel and flarum api.</p>
    <h2>How to test</h2>
    <ul>
-      <li><a href="https://laravel.allim.club">Access https://laravel.allim.club</a></li>
-      <li>Create test login credential and then login, or use below test account to login</li>
+      <li>Access <a href="https://laravel.allim.club">https://laravel.allim.club</a></li>
+      <li>Register a login credential and then login, or use below test account to login</li>
       test email : test@test.org
       <br>
       test password : test1234
