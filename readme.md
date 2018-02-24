@@ -4,7 +4,7 @@
    <ul>
       <li><a href="https://laravel.allim.club">Access https://laravel.allim.club</a></li>
       <li>Create test login credential and then login, or use below test account to login</li>
-      test email : test1@test.org
+      test email : test@test.org
       <br>
       test password : test1234
    </ul>
