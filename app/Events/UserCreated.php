@@ -2,7 +2,6 @@
 namespace App\Events;
 
 use App\User;
-use App\Events\UserCreated;
 
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Broadcasting\InteractsWithSockets;
