@@ -81,7 +81,6 @@ class FlarumEventSubscriber implements ShouldQueue
       ];
 
       $response = $this->sendRequest($endpoint, $method, $data);
-      LOG::DEBUG($response);
       Event(new UserCreated($response['data']['id'] ?: ''));
     }
   
@@ -123,7 +122,6 @@ class FlarumEventSubscriber implements ShouldQueue
      */
     public function onUserLogout($event)
     {
-        session_destroy();
         //$this->removeRememberMeCookie();
         //$this->setCookie('flarum_session', '', time() - 10);
         //$this->setCookie('flarum_session', '', time() - 10, '/flarum');
