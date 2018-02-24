@@ -71,7 +71,7 @@ class FlarumEventSubscriber implements ShouldQueue
               'attributes' => [
                   'id'       => $user->id,
                   'username' => $user->name,
-                  'password' => User::getFlarumPassword(),
+                  'password' => $user->password,
                   'email'    => $user->email
               ]
           ]
