@@ -6,7 +6,7 @@
       <li>Create test login credential and then login, or use below test account to login</li>
       test email : test1@test.org
       <br>
-      test passwprd : qwer1234
+      test password : test1234
    </ul>
    <h2>Reference</h2>
       <p><a href="https://wogan.blog/2017/02/12/integrating-laravel-and-flarum/">Wogan's blog</a></p>
