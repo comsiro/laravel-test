@@ -2,12 +2,12 @@
    <p>Simple flarum login through laravel and flarum api.</p>
    <h2>How to test</h2>
    <ul>
-      <li><a href="https://laravel.allim.club"></a></li>
+      <li><a href="https://laravel.allim.club">Access https://laravel.allim.club</a></li>
       <li>Create test login credential and then login, or use below test account to login</li>
       test email : test1@test.org
-      test passwprd : test1234
+      <br>
+      test passwprd : qwer1234
    </ul>
    <h2>Reference</h2>
-   <hr>
       <p><a href="https://wogan.blog/2017/02/12/integrating-laravel-and-flarum/">Wogan's blog</a></p>
       <p><a href="https://github.com/kalynrobinson/flarum-laravel-integration">kalynrobinson's git repository</a></p>
