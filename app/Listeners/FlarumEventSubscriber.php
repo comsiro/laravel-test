@@ -81,6 +81,7 @@ class FlarumEventSubscriber implements ShouldQueue
       ];
 
       $response = $this->sendRequest($endpoint, $method, $data);
+      LOG::DEBUG($response);
       Event(new UserCreated($response['data']['id'] ?: ''));
     }
   
