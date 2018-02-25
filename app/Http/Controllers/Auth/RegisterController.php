@@ -27,7 +27,8 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    //protected $redirectTo = '/home';
+    protected $redirectTo;
 
     /**
      * Create a new controller instance.
@@ -67,5 +68,15 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password'])
         ]);
+    }
+
+        /**
+     * Set redirectTo URL with RememberMe token for Flarum access
+     *
+     * @return void
+     */
+    protected function registered()
+    {
+        $this->redirectTo = config('flarum.url') . "/auth.php?token=".session('flarum_remember');
     }
 }
